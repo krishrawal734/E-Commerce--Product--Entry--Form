@@ -1,0 +1,70 @@
+/* Custom Fonts (Optional, but enhances look) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+/* Custom styling for the form card */
+.form-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Custom button color */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Styling for the dynamically added product cards */
+.product-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    
+    background-color: #ffffff;
+    height: 100%; 
+   
+    /* Important for equal height in a row */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    
+}
+
+.product-img {
+    height: 100;
+ 
+    
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Color coding for categories */
+.badge-category-Electronics { background-color: #dc3545; } /* Red */
+.badge-category-Clothing { background-color: #28a745; }    /* Green */
+.badge-category-Furniture { background-color: #ffc107; }   /* Yellow */
+.badge-category-Books { background-color: #17a2b8; }       /* Teal */
+.badge-category-Other { background-color: #6c757d; }       /* Grey */
+
+/* Styling for ratings */
+.rating-star {
+    color: #ffc107; /* Yellow for stars */
+}
